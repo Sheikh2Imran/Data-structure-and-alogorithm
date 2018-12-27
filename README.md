@@ -1,1 +1,1 @@
-Data stucture and alogorithm implementation using python 3.4
+Data stucture and algorithm implementation using python 3.4

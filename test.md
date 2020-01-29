@@ -1,6 +1,6 @@
 This is a documentation 
 
-~
+`
 import time
 
 def BubbleSort(arr, n):
@@ -26,4 +26,4 @@ print("Sorted Array:", *num_arr)
 end_time = time.time()
 execution_time = round(((end_time - start_time)*1000),6)
 print("Code Execution Time: %s Milliseconds" % execution_time)
-~
+`

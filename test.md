@@ -1,6 +1,6 @@
 This is a documentation 
 
-```
+```python
 import time
 
 def BubbleSort(arr, n):

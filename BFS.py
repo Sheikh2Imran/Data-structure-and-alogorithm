@@ -55,10 +55,8 @@ g.BFS(1, 10)
 """
 Applications of Breadth First Traversal:
 1. Peer to Peer Networks like bitTorrent.
-2. Crawlers in Search Engines.
-3. Social Networking Websites.
-4. Breadth First Search is used to find all neighboring locations.
-5.  Broadcasting in Network.
-6. copying garbage collection using Cheney’s algorithm.
-7. We can either use Breadth First or Depth First Traversal to find if there is a path between two vertices.
+2. Social Networking Websites.
+3. Breadth First Search is used to find all neighboring locations.
+4. We can either use Breadth First or Depth First Traversal to find if there is a path between two vertices.
+5. Broadcasting in Network.
 """

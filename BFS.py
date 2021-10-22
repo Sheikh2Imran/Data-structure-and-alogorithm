@@ -5,6 +5,26 @@
     1. Remove the head u from Q
     2. Mark as visited and enqueue the neighbors of u.
 
+# if this is the graph    
+    1
+   /  \
+  2    4
+ / \    \
+3   9    7
+    
+# And i will save this graph in adjacency list, then i looks like below.
+{
+    1: [2, 4],
+    2: [3, 9],
+    4: [7],
+}
+
+# I am going to use adjancency list. Because i can set the required space at run time.
+# If there are n nodes and if i use adjancency matrix then the space complexity will be n * n.
+
+# Also Time complexity is lower than adjancency matrix. When i have to search the adjacency node \
+# of a node then it helps beacuse i don't need to search the hole thing. Then time complexity is n.
+ 
 
 from collections import defaultdict
 

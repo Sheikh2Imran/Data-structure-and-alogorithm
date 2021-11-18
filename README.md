@@ -156,3 +156,30 @@ class Node(object):
         new_node.prev = last 
 ```
 
+#### Insert a node before a node algorithm:
+1. Make a new node.
+2. Assign new node's previous point to given node's previous node.
+3. Assign given node's previous point to new node.
+4. Assing new node's next pointer to the given node.
+5. Assign given node's previous node's next pointer to new node.
+
+Source code:
+```
+class Node(object):
+    def __init__(self, next=None, prev=None, data=None):
+        self.next = next
+        self.prev = prev
+        self.data = data
+        
+    def insert_before_node(self, new_data, given_node):
+        new_node = Node(data=new_data)
+        
+        if given_node is None:
+            return "Given node is None"
+        
+        new_node.prev = given_node.prev
+        given_node.prev = new_node
+        new_node.next = given_node
+        given_node.prev.next = new_node
+```
+
